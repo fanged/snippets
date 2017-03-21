@@ -103,7 +103,10 @@
 
 
 		// construct the api url
-		globs.feedUrl = "https://api.github.com/repos/" + globs.user + "/" + globs.repo + "/contents/" + globs.path ;
+		//globs.feedUrl = "https://api.github.com/repos/" + globs.user + "/" + globs.repo + "/contents/" + globs.path ;
+		
+		//https://raw.githubusercontent.com/immrsv/www.immer.tech/master/content/200703-Mirrors/reflection.cpp
+		globs.feedUrl = "https://raw.githubusercontent.com/" + globs.user + "/" + globs.repo + "/master/" + globs.path ;
 		
 		// this is where the feeds will be stored
 		globs.feedBox = document.getElementById("feedbox");
