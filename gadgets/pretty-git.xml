@@ -48,6 +48,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 	<style> 
 	
+		body {
+			background-color: transparent;		
+		}
 	  .feedbox {
 		font-size:.8em;
 		padding:6px;
