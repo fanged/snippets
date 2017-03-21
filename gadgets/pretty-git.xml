@@ -51,6 +51,7 @@
 	  .feedbox {
 		font-size:.8em;
 		padding:6px;
+		background-color: transparent;
 	  }
 	  .feedtitle {
 		font-weight:bold;
