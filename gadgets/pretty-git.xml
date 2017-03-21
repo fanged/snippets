@@ -52,7 +52,7 @@
 	<style> 
 	
 		body {
-			background-color: #1;		
+			background-color: #111;		
 		}
 	  .feedbox {
 		font-size:.8em;
