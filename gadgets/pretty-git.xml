@@ -49,7 +49,7 @@
 	<style> 
 	
 		body {
-			background-image: url("https://raw.githubusercontent.com/immrsv/www.immer.tech/dev/images/darken_50pc.png");
+			background-color: rgba(30,30,30,0.5);
 			color: white;
 		}
 	  .feedbox {
