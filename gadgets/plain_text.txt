@@ -3,5 +3,16 @@
 
 Hello!
 
+Visual Studio Colours:
+Background - #1e1e1e
+Line Numbers - 43, 145, 175
+Keywords - 86, 156, 214
+Macros - 189, 99, 197
+Comments - 87, 166, 74
+Numbers - 181, 206, 168
+Punctuation - 220, 220, 220
+String - 214, 157, 133
+
+
 </body>
 </html>

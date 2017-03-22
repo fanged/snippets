@@ -7,7 +7,8 @@
 	<style> 
 	
 		body {
-			background-color: transparent;		
+			background-image: url("https://raw.githubusercontent.com/immrsv/www.immer.tech/dev/images/darken_50pc.png");		
+			color: white;
 		}
 	  .feedbox {
 		font-size:.8em;
@@ -160,9 +161,9 @@
 		//globs.sourceTitleBox.innerHTML = ' Source for ' + globs.path +' from ' + globs.user + "'s " + '<a href="https://github.com/' + globs.user + '/' + globs.repo + '">' + globs.repo + ' github repository</a>';
 
 		function setInner (con) {
-			globs.source.innerHTML =  '<pre class="prettyprint" style="font-size:.8em;">' +  con + '</pre>';
+			globs.source.innerHTML =  '<pre class="prettyprint" >' +  con + '</pre>';
 			if (globs.prettify) {
-				globs.source.innerHTML =  '<pre class="prettyprint" style="font-size:.8em;">' +  con + '</pre>';
+				globs.source.innerHTML =  '<pre class="prettyprint" >' +  con + '</pre>';
 				prettyPrint();
 			}
 			else {
