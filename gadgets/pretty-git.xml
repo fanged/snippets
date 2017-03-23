@@ -172,9 +172,9 @@ pre.prettyprint {
 		//globs.sourceTitleBox.innerHTML = ' Source for ' + globs.path +' from ' + globs.user + "'s " + '<a href="https://github.com/' + globs.user + '/' + globs.repo + '">' + globs.repo + ' github repository</a>';
 
 		function setInner (con) {
-			globs.source.innerHTML =  '<pre class="prettyprint" >' +  con + '</pre>';
-			if (globs.prettify) {
-				globs.source.innerHTML =  '<pre class="prettyprint" >' +  con + '</pre>';
+			//globs.source.innerHTML =  '<pre class="prettyprint linenums" >' +  con + '</pre>';
+			if (true) {
+				globs.source.innerHTML =  '<pre class="prettyprint linenums" >' +  con + '</pre>';
 				prettyPrint();
 			}
 			else {
