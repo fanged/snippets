@@ -90,7 +90,7 @@ pre.prettyprint {
 		}
 	</style>
 	
-	<div id="content">
+	<div id="content" style="font: 1.0em 'Aldrich' !important;">
 	</div>
 	
 	<script>
