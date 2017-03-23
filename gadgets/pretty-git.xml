@@ -42,7 +42,6 @@
 		
 	<Content type="html"> <![CDATA[
 	
-	<link rel="stylesheet" type="text/css" href="__UP_style__">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
     <!--link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B92ExLh4POiZZExOY2M0RW5objg"-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
@@ -54,7 +53,7 @@
 		body {
 			background-color: rgba(0,0,0,0.5);
 			color: white;
-			font: 1.0em Consolas, Monospace;
+			font: 1.0em 'Consolas', Monospace;
 		}
 
 		pre .str, code .str { color: #65B042; } /* string  - green */
