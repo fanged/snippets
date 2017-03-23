@@ -53,7 +53,7 @@
 		body {
 			background-color: rgba(0,0,0,0.5);
 			color: white;
-			font: 1.0em 'Consolas', Monospace;
+			font: 1.0em 'Aldrich', Monospace;
 		}
 
 		pre .str, code .str { color: #65B042; } /* string  - green */
