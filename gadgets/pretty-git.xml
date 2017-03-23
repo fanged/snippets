@@ -42,9 +42,39 @@
 		
 	<Content type="html"> <![CDATA[
 	
+	<!-- Unset Google's "DEFAULT" Styles -->	
+		<style type="text/css">
+body,td,div,span,p{
+font-family:unset;
+}
+
+a {
+color:unset;
+}
+
+a:visited {
+color:unset;
+}
+
+a:active {
+color:unset;
+}
+body{
+margin: unset;
+padding: unset;
+background-color:unset;
+}
+
+</style>
+
     <!--link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css"-->
     <!--link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B92ExLh4POiZZExOY2M0RW5objg"-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+	
+
+	
+
+
 	<style> 
 @font-face {
   font-family: 'Aldrich';
@@ -59,7 +89,8 @@
 }
 
 
-		pre .str, code .str { color: #65B042; } /* string  - green */
+
+pre .str, code .str { color: #65B042; } /* string  - green */
 pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
 pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
 pre .typ, code .typ { color: #89bdff; } /* type - light blue */
