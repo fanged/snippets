@@ -101,6 +101,8 @@ pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name   */
 pre .atv, code .atv { color: #65B042; } /* html/xml attribute value  */
 pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
 
+ol.linenums { margin-top: 0; margin-bottom: 0; color: rgb( 43, 145, 175 ); } /* IE indents via margin-left */
+
 pre.prettyprint, code.prettyprint {
 	border-radius: 8px;
 }
