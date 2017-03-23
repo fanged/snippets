@@ -55,11 +55,14 @@
 	  .feedbox {
 		font-size:.8em;
 		padding:6px;
+		overflow:scroll;
+		height: 400px; 
+		width: 400px;
 	  }
 	
 	</style>
 	
-	<div class="feedbox" id="feedbox" style="overflow:scroll; height: 400px; width: 400px;">
+	<div class="feedbox" id="feedbox">
 		<div id="source"></div>
 	</div>
 	
