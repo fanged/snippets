@@ -47,10 +47,10 @@
     <!--link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B92ExLh4POiZZExOY2M0RW5objg"-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 	<style> 
-	@font-face (
+	@font-face {
 		font-family: Consolas;
-		src: url("https://github.com/immrsv/www.immer.tech/raw/master/consola.ttf");
-	)
+		src: url("www.immer.tech/consola.ttf");
+	}
 		body {
 			background-color: rgba(0,0,0,0.5);
 			color: white;
