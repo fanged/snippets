@@ -46,10 +46,13 @@
     <!--link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B92ExLh4POiZZExOY2M0RW5objg"-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 	<style> 
-	@font-face {
-		font-family: Consolas;
-		src: url("www.immer.tech/consola.ttf");
-	}
+@font-face {
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aldrich'), url(//fonts.gstatic.com/s/aldrich/v6/j-NnyokbAnhXANS2iZ6Jew.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 		body {
 			background-color: rgba(0,0,0,0.5);
 			color: white;
