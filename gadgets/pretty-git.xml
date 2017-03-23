@@ -107,8 +107,7 @@ pre.prettyprint, code.prettyprint {
 }
 
 pre.prettyprint {
-	margin: 0.5em auto;
-	padding: 0.5em;
+	margin: 0em auto;
 }
 
 		body {
