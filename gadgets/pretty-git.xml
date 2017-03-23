@@ -91,7 +91,7 @@ background-color:unset;
 
 pre .str, code .str { color: rgb( 214, 157, 133); } /* string */
 pre .kwd, code .kwd { color: rgb(  86, 156, 214); } /* keyword */
-pre .com, code .com { color: rgb(  87, 166,  74); font-style: italic; } /* comment */
+pre .com, code .com { color: rgb(  87, 166,  74); } /* comment */
 pre .typ, code .typ { color: rgb(  78, 201, 176); } /* type */
 pre .lit, code .lit { color: rgb( 181, 206, 168); } /* literal  */
 pre .pun, code .pun { color: rgb( 220, 220, 220); } /* punctuation  */
