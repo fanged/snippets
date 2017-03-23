@@ -103,7 +103,7 @@
 		globs.feedBox = document.getElementById("feedbox");
 		//globs.tdTitle = document.getElementById("tdtitle");
 		//globs.sourceTitleBox = document.getElementById("sourcetitlebox");
-		globs.source = document.getElementById("source");
+		globs.source = $('body'); //document.getElementById("source");
 		globs.pretty = document.getElementById("pretty");
 		//globs.tdTitle.innerHTML = prefs.getString("feedtitle") + " (click to lock/unlock view)";
 		
