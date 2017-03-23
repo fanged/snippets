@@ -56,7 +56,7 @@
 		font-size:.8em;
 		padding:6px;
 		overflow:scroll;
-		height: 400px; 
+		max-height: 100px; 
 		width: 400px;
 	  }
 	
