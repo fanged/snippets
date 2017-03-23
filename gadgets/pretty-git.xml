@@ -40,7 +40,7 @@
 		display_name="Prettification"
 		default_value="true"/>
 		
-	<Content type="url" href="http://raw.githubusercontent.com/immrsv/www.immer.tech/master/gadgets/pretty-git.content.html"> <![CDATA[
+	<Content type="url" href="https://raw.githubusercontent.com/immrsv/www.immer.tech/master/gadgets/pretty-git.content.html"> <![CDATA[
 	
 	
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
