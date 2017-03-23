@@ -49,7 +49,7 @@
 	<style> 
 	@font-face (
 		font-family: Consolas;
-		src: url("www.immer.tech/consola.ttf");
+		src: url("https://github.com/immrsv/www.immer.tech/raw/master/consola.ttf");
 	)
 		body {
 			background-color: rgba(0,0,0,0.5);
