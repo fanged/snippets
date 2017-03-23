@@ -82,17 +82,13 @@
 	var globs = {};
 	
 	function doFeed() {
-		// this is the image that gets out of the way when hovered over
-		//globs.hoverElem = document.getElementById("hover");
-		//globs.hoverImg = document.getElementById("hoverimg");
+	
 		// get the pref parameters
 		var prefs = new gadgets.Prefs();
 		globs.user = prefs.getString("user");
 		globs.repo = prefs.getString("repo") ;
 		globs.path = prefs.getString("path") ;
-		globs.reveal = prefs.getBool("reveal") ;
 		globs.markdown = prefs.getBool("markdown") ;
-		globs.dynamic = prefs.getBool("dynamic") ;
 		globs.prettify = prefs.getBool("prettify") ;
 
 
@@ -100,67 +96,10 @@
 		globs.feedUrl = "https://api.github.com/repos/" + globs.user + "/" + globs.repo + "/contents/" + globs.path ;
 		
 		// this is where the feeds will be stored
-		globs.feedBox = document.getElementById("feedbox");
-		//globs.tdTitle = document.getElementById("tdtitle");
-		//globs.sourceTitleBox = document.getElementById("sourcetitlebox");
-		globs.source = $('body'); //document.getElementById("source");
+		globs.feedBox = document.body; //document.getElementById("feedbox");
+		globs.source = document.body; //document.getElementById("source");
 		globs.pretty = document.getElementById("pretty");
-		//globs.tdTitle.innerHTML = prefs.getString("feedtitle") + " (click to lock/unlock view)";
-		
-		
-		// set up image events
-		//globs.hoverImg.src = prefs.getString("imageurl");
-		//if(!globs.hoverImg.src){
-		//	console.log ("disabled feed display - no image provided");
-		//}
-	
-		// clicker on whether to lock visibility status
-		// if permanently revealed we can just lock it
-		//globs.locked = globs.reveal;
-		
-		//if (globs.reveal) over();
 
-		//globs.hoverElem.addEventListener("mouseout",over , false);
-		//globs.source.addEventListener("click",lock , false);
-		//globs.hoverElem.addEventListener ("load", 
-		//	function () {
-		//		// when the image loads, get its height and adjust the gadget height to match
-		//		if (globs.dynamic ) { gadgets.window.adjustHeight(getHeight(globs.hoverElem)); }
-		//	}, 
-		//	false
-		//);
-		
-		// happens on mouseover
-		//function over () {
-			// means we need to start showing the source
-		//	globs.hoverElem.removeEventListener("mouseover", over );
-		//	globs.source.addEventListener("mouseout", out, false);
-		//	setVisiblity(globs.feedBox, true);
-		//	setVisiblity(globs.hoverElem, false);
-
-		//	if (globs.dynamic )gadgets.window.adjustHeight(getHeight(globs.feedBox));
-		//};
-		// happens on mouseclick
-		//function lock () {
-		//	if (!globs.reveal ) {
-		//		globs.locked = !globs.locked;
-
-				// do an implied out - if its locked then nothing will happen
-		//		out();
-		//	}
-		//};
-		
-		// happens on mouseout
-		//function out () {
-			// we are showing the source and need to stop if not locked
-		//	if (!globs.locked) {
-		//		globs.source.removeEventListener("mouseout",out);
-		//		globs.hoverElem.addEventListener("mouseover",over , false);
-		//		setVisiblity(globs.feedBox, false);
-		//		setVisiblity(globs.hoverElem, true);
-		//		if(globs.dynamic)gadgets.window.adjustHeight(getHeight(globs.hoverElem));
-		//	}
-		//};
 		
 		// get the content
 		getData(globs.feedUrl);
