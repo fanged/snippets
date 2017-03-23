@@ -68,7 +68,6 @@ background-color:unset;
 </style>
 
     <!--link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css"-->
-    <!--link rel="stylesheet" type="text/css" href="https://googledrive.com/host/0B92ExLh4POiZZExOY2M0RW5objg"-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 	
 
@@ -90,16 +89,16 @@ background-color:unset;
 
 
 
-pre .str, code .str { color: #65B042; } /* string  - green */
-pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
-pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
-pre .typ, code .typ { color: #89bdff; } /* type - light blue */
-pre .lit, code .lit { color: #3387CC; } /* literal - blue */
-pre .pun, code .pun { color: #fff; } /* punctuation - white */
-pre .pln, code .pln { color: #fff; } /* plaintext - white */
-pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
-pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
-pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+pre .str, code .str { color: rgb( 214, 157, 133); } /* string */
+pre .kwd, code .kwd { color: rgb(  86, 156, 214); } /* keyword */
+pre .com, code .com { color: rgb(  87, 166,  74); font-style: italic; } /* comment */
+pre .typ, code .typ { color: rgb(  78, 201, 176); } /* type */
+pre .lit, code .lit { color: rgb( 181, 206, 168); } /* literal  */
+pre .pun, code .pun { color: rgb( 220, 220, 220); } /* punctuation  */
+pre .pln, code .pln { color: rgb( 220, 220, 220); } /* plaintext  */
+pre .tag, code .tag { color: #89bdff; } /* html/xml tag   */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name   */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value  */
 pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
 
 pre.prettyprint, code.prettyprint {
