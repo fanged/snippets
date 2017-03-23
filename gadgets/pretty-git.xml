@@ -85,7 +85,7 @@ pre.prettyprint {
 			font: 1.0em 'Aldrich' !important;
 		}
 		
-		.content {
+		span {
 			font: 1.0em 'Aldrich' !important;
 		}
 	</style>
