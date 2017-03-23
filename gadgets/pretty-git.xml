@@ -59,7 +59,7 @@
 	
 	</style>
 	
-	<div class="feedbox" id="feedbox" style="overflow:scroll; height:400px;">
+	<div class="feedbox" id="feedbox" style="overflow:scroll; height: 400px; width: 400px;">
 		<div id="source"></div>
 	</div>
 	
