@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'Aldrich';
+  font-style: normal;
+  src: url(//fonts.gstatic.com/s/aldrich/v6/j-NnyokbAnhXANS2iZ6Jew.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Consolas';
+  font-style: normal;
+  src: url(//www.immer.tech/consola.ttf) format('TrueType');  
+}
+
+
+
+pre .str, code .str { color: rgb( 214, 157, 133); } /* string */
+pre .kwd, code .kwd { color: rgb(  86, 156, 214); } /* keyword */
+pre .com, code .com { color: rgb(  87, 166,  74); } /* comment */
+pre .typ, code .typ { color: rgb(  78, 201, 176); } /* type */
+pre .lit, code .lit { color: rgb( 181, 206, 168); } /* literal  */
+pre .pun, code .pun { color: rgb( 220, 220, 220); } /* punctuation  */
+pre .pln, code .pln { color: rgb( 220, 220, 220); } /* plaintext  */
+pre .tag, code .tag { color: #89bdff; } /* html/xml tag   */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name   */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value  */
+pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+ol.linenums { margin-top: 0; margin-bottom: 0; color: rgb( 43, 145, 175 ); } /* IE indents via margin-left */
+
+pre.prettyprint, code.prettyprint {
+	border-radius: 8px;
+}
+
+pre.prettyprint {
+	margin: 0.1em auto;
+}
+
+		body {
+			background-color: rgba(0,0,0,0.5);
+			color: white;
+			font: 1.0em 'Consolas' !important;
+		}
+		
+		span {
+			font: inherit;
+		}
